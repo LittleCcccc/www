@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02f808a2-7751-485c-b8e8-d305bc1796ac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/bertutils/The BQ Corpus.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bertutils/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bertutils/args.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bertutils/bert_vec.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bertutils/data/dev.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bertutils/data/test.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bertutils/data/train.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bertutils/extract_feature.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bertutils/graph.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bertutils/modeling.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bertutils/optimization.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bertutils/similarity.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bertutils/tokenization.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/bertutils/get_text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bertutils/kmeans.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bertutils/sentence_encoding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bertutils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bertutils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bertutils/extract_feature.py" beforeDir="false" afterPath="$PROJECT_DIR$/bertutils/extract_feature.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -193,7 +185,9 @@
       <workItem from="1572708555828" duration="12180000" />
       <workItem from="1572762037690" duration="4524000" />
       <workItem from="1572767488123" duration="927000" />
-      <workItem from="1572863125603" duration="11215000" />
+      <workItem from="1572769420917" duration="2492000" />
+      <workItem from="1572851451297" duration="5314000" />
+      <workItem from="1572861031905" duration="966000" />
     </task>
     <servers />
   </component>
@@ -205,7 +199,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -216,8 +212,23 @@
       <breakpoints>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/opennre/framework/data_loader.py</url>
-          <line>226</line>
+          <line>203</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/opennre/framework/data_loader.py</url>
+          <line>191</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/opennre/framework/data_loader.py</url>
+          <line>237</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/opennre/framework/data_loader.py</url>
+          <line>192</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/opennre/encoder/pcnn_encoder.py</url>
@@ -239,67 +250,21 @@
           <line>170</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/opennre/framework/data_loader.py</url>
-          <line>313</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/opennre/framework/data_loader.py</url>
-          <line>311</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/opennre/framework/data_loader.py</url>
-          <line>307</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/opennre/framework/data_loader.py</url>
-          <line>303</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/opennre/framework/data_loader.py</url>
-          <line>180</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/opennre/framework/data_loader.py</url>
-          <line>181</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/opennre/framework/data_loader.py</url>
-          <line>192</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/opennre/framework/data_loader.py</url>
-          <line>177</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/opennre/framework/data_loader.py</url>
-          <line>300</line>
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
       </breakpoints>
-      <default-breakpoints>
-        <breakpoint type="python-exception">
-          <properties notifyOnTerminate="true" exception="BaseException">
-            <option name="notifyOnTerminate" value="true" />
-          </properties>
-        </breakpoint>
-      </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="self.mydata" language="Python" />
+        <watch expression="self.bag_scope" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/OpenNRE$train_semeval_cnn_softmax.coverage" NAME="train_semeval_cnn_softmax Coverage Results" MODIFIED="1572717838559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/OpenNRE$M.coverage" NAME="my_train Coverage Results" MODIFIED="1572854053122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/OpenNRE$train_wiki80_bert_softmax_.coverage" NAME="train_wiki80_bert_softmax  Coverage Results" MODIFIED="1572709062293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/OpenNRE$train_wiki80_cnn_softmax.coverage" NAME="train_wiki80_cnn_softmax Coverage Results" MODIFIED="1572720779661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
-    <SUITE FILE_PATH="coverage/OpenNRE$train_nyt10_pcnn_att.coverage" NAME="train_nyt10_pcnn_att Coverage Results" MODIFIED="1572874448567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/OpenNRE$my_train.coverage" NAME="my_train Coverage Results" MODIFIED="1572877229439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/OpenNRE$train_nyt10_pcnn_att.coverage" NAME="train_nyt10_pcnn_att Coverage Results" MODIFIED="1572853193799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/OpenNRE$pretrain.coverage" NAME="pretrain Coverage Results" MODIFIED="1572689847881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opennre" />
   </component>
 </project>
